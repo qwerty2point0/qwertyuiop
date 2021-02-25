@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../JOYLYN_ZUNIGA/imgs/j.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-style: 1px solid white;
+    transition: 0.3s ease
+}
+ul li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+ul li.active a{
+    background-color: whitesmoke;
+    color: black;
+
+}
+header .logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1330px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 4px 4px rgb(192, 143, 21);
+}
+.title h1{
+    color:whitesmoke;
+    font-size: 70px;
+}
+.section-title{
+    flex: 0 0 100;
+    max-width: 100%;
+
+}
+.section-title{
+    display: inline-block;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #302d2d;
+    margin: 0 0 10px;
+    position: relative;
+}
+.section-title{
+    font-size: 20px;
+    color: #423940;
+    position: relative;
+    padding-bottom: 14px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 580px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+.section-title h1{
+    content:'';
+    height: 2px;
+    background-color:  rgb(192, 167, 28);
+    bottom: 0;
+    left: 50;
+    right: 0;
+    margin: auto;
+}
+.section-title h5{
+    margin-top: 10%;
+}
+.text-center{
+    text-align: center !important;
+}
+.text-top{
+    text-align: top !important;
+}
+.btn{
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 600;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    transition: all .4s ease;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.btn:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1,1);
+}
+.btn {
+    background-color: rgb(7, 7, 7);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid whitesmoke;
+    padding: 10px 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background-color: rgb(253, 158, 16);
+    color: black
+}
+/*ABOUT SECTION STARTS HERE*/
+.about{
+    width: 70%;
+    height: 80vh;
+    margin-left: 15%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px 5% 0 5%;
+    margin-bottom: 150px;
+    position: relative;
+    text-align: justify;
+ 
+}
+.about-text h1{
+    font: Calibri;
+    font-size: 90px;
+}
+.about-text h2{
+    font-size: 40px;
+}
+.about-text {
+    font-family: Calibri;
+}
+.about-text h1, h2{
+    margin: 0;
+    padding: 0;
+}
+.about-text{
+    font-family: Calibri;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 25px;
+}
+.about-mdel img{
+    width: 340px;
+    height: 570px;
+    margin-right: 20%;
+    margin-left: 10;
+}
+.text{
+    margin-top: 5%;
+    width: 90%;
+}
+/*ABOUT SECTION ENDS HERE*/
+
+/*Lyrics Starts Here*/
+.Lyrics{
+    margin-top: 10%;
+    text-align: center
+}
+.lyrics{
+    text-align: center;
+    margin-bottom: 10%;
+}
